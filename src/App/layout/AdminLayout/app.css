@@ -1,0 +1,229 @@
+/* ScrollBar */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* Track */
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius : 10px;
+    background: #888;
+  }
+  
+  .sidebar {
+      width: 99.5%;
+      height:  93vh;
+      grid-area: s;
+      position: relative;
+    }
+    
+    
+    .info-box {
+      background-color: #4ca750;
+    }
+    
+    .cards {
+      display: grid;
+      grid-template-columns: fit-content;
+      grid-auto-flow: column;
+      justify-content: space-around;
+      align-items: flex-end;
+      position: absolute;
+      bottom: 0;
+      z-index: 2;
+    }
+    
+    .card-btn {
+      background-color: white;
+      z-index: 2;
+      position: absolute;
+      border: 0;
+      cursor: pointer;
+      top: 84%;
+      left: 0%;
+      color: white;
+      border-radius: 10%;
+      height: 4vh;
+      padding: 0;
+      outline: none;
+      transition: height 400ms linear 0s;
+  
+    }
+    
+    .card-btn span {
+      color: rgb(105, 104, 104);
+      font-size: 2rem;
+    }
+    .card-btn:focus {
+      outline : 0;
+    }
+    .btn-up {
+      top: 51%;
+      transition: height 400ms linear 0s;
+    }
+    
+    .card {
+      border-radius: 0.2rem;
+      cursor: pointer;
+      color: white;
+      text-align: center;
+      width: auto;
+      transition: height 400ms linear 0s;
+      background-color: white;
+      padding: 0.1rem;
+    }
+    
+    .card-content {
+      transition: all ease-in-out 450ms;
+      color: rgb(105, 104, 104);
+      height: 30vh;
+      max-width: max-content;
+      overflow-y: auto;
+      overflow-x: auto;
+    }
+    
+    .change-h {
+       /* height: max-content;  */
+       /* width: 800px;  */
+       
+    }
+    
+    .change-w {
+      /* grid-template-columns: auto;
+       grid-template-columns: none; 
+       grid-auto-rows: minmax(5rem, auto); 
+       grid-auto-flow: column;  */
+    }
+    
+    .card-completed h4 {
+      color : white;
+      font-size: 15px;
+      padding: 0.5rem;
+      font-weight: 300;
+      background-color: #4ca750;
+      transition: all ease-in-out 450ms;
+    }
+    
+    .card-progress h4 {
+      color : white;
+      font-size: 15px;
+      padding: 0.5rem;
+      font-weight: 300;
+      background-color: #fc950c;
+      transition: all ease-in-out 450ms;
+    }
+    
+    .card-error h4 {
+      color : white;
+      font-size: 15px;
+      font-weight: 300;
+      padding: 0.5rem;
+      background-color: #e94440;
+      transition: all ease-in-out 450ms;
+    }
+    
+    .card-summary h4 {
+      color : white;
+      font-size: 15px;
+      font-weight: 300;
+      padding: 0.5rem;
+      background-color: #a641b9;
+      transition: all ease-in-out 450ms;
+    }
+  
+    .card table {
+      width: 100%;
+      font-size: 1rem;
+      text-align: left;
+      padding: 0rem;
+    }
+    
+    .card th {
+      font-size: 10px;
+      padding-bottom: 0.2rem;
+    }
+    
+    @media screen and (max-width: 748px) {
+      
+      .sidebar {
+        width: 100%;
+        border-radius: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+      }
+    
+      .cards {
+        flex-direction: column;
+        height: 100%;
+      }
+    
+      .map {
+        height: 100%;
+      }
+    
+      .card {
+        width: 100%;
+      }
+      .card-completed h4 {
+        
+        font-size: 8px;
+        padding: 0.2rem;
+      }
+      .card-progress h4 {
+        font-size: 10px;
+        padding: 0.2rem;
+        
+      }
+      
+      .card-error h4 {
+        font-size: 10px;
+        font-weight: 300;
+        padding: 0.2rem;
+        
+      }
+      
+      .card-summary h4 {
+        font-size: 10px;
+        font-weight: 300;
+        padding: 0.2rem;
+       }
+       .card table {
+        font-size: 0.5rem;
+        text-align: left;
+        padding: 0rem;
+      }
+      
+      .card th {
+        font-size: 6px;
+        padding-bottom: 0.2rem;
+      }
+      
+    }
+    
+    #ecosystem-select{
+      margin: auto 10px auto 0;
+      width: 130px;
+      border: 0;
+      height: 30px;
+      font-size: 1rem;
+      color: rgb(136, 136, 136);
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+      font-weight: 600;
+      line-height: 1.5;
+    }
+
+
+    /* map clustor section */
+    .marker-cluster-small div {
+      background-color: #E95617;
+      
+      color: black;
+      }
+      .marker-cluster-small {
+        background-color: #E95617;
+        }

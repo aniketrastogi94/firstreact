@@ -1,0 +1,70 @@
+{
+  "name": "datta-able-rv18.0.4",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://lite.codedthemes.com/datta-able/react/default/",
+  "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
+    "@turf/length": "^6.0.2",
+    "@turf/turf": "^5.1.6",
+    "apexcharts": "^3.19.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.0",
+    "leaflet": "^1.6.0",
+    "leaflet-draw": "^1.0.4",
+    "leaflet-react-track-player": "^1.3.5",
+    "lodash": "^4.17.15",
+    "lodash-es": "^4.17.15",
+    "node-sass": "^4.12.0",
+    "osmtogeojson": "^3.0.0-beta.4",
+    "react": "^16.8.4",
+    "react-alert": "^7.0.2",
+    "react-alert-template-basic": "^1.0.0",
+    "react-apexcharts": "^1.3.7",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-collapsible": "^2.8.0",
+    "react-dom": "^16.8.4",
+    "react-full-screen": "^0.2.4",
+    "react-icons": "^3.10.0",
+    "react-leaflet": "^2.7.0",
+    "react-leaflet-draw": "^0.19.0",
+    "react-leaflet-google-v2": "^5.1.3",
+    "react-leaflet-markercluster": "^2.0.0",
+    "react-loadable": "^5.5.0",
+    "react-nvd3": "^0.5.7",
+    "react-perfect-scrollbar": "^1.4.4",
+    "react-redux": "^6.0.1",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.0.0",
+    "react-window-size": "^1.2.2",
+    "redux": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "react-to-print": "^2.1.1"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "webpack.config.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}
